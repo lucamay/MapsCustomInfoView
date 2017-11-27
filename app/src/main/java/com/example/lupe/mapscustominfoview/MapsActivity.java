@@ -44,10 +44,44 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
         mMap.getUiSettings().setZoomGesturesEnabled(true);
 
-        LatLng uno = new LatLng(-18, -69);
+        LatLng uno = new LatLng(-15.65, -69.12);
+        LatLng dos = new LatLng(-16.58, -68.185);
+        LatLng tres = new LatLng(-14.5614, -64.3853);
+        LatLng cuatro = new LatLng(-17.11, -67.68);
+        LatLng cinco = new LatLng(-17.54, -67.39);
+        LatLng seis = new LatLng(-17.54, -67.39);
+        LatLng siete = new LatLng(-14.09296, -64.3234);
+        LatLng ocho = new LatLng(-15.09296, -67.01561);
+        LatLng nueve = new LatLng(-14.35294, -64.52453);
+        LatLng diez = new LatLng(-15.5308, -63.1123);
+        LatLng once = new LatLng(-17, -63.1123);
+        LatLng doce = new LatLng(-17, -63);
+
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(uno));
         mMap.addMarker(new MarkerOptions().position(uno)
                 .title("Proyecto:"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(uno));
+        mMap.addMarker(new MarkerOptions().position(dos)
+                .title("Proyecto:"));
+        mMap.addMarker(new MarkerOptions().position(tres)
+                .title("Proyecto:"));
+        mMap.addMarker(new MarkerOptions().position(cuatro)
+                .title("Proyecto:"));
+        mMap.addMarker(new MarkerOptions().position(cinco)
+                .title("Proyecto:"));
+        mMap.addMarker(new MarkerOptions().position(seis)
+                .title("Proyecto:"));
+        mMap.addMarker(new MarkerOptions().position(siete)
+                .title("Proyecto:"));
+        mMap.addMarker(new MarkerOptions().position(ocho)
+                .title("Proyecto:"));
+        mMap.addMarker(new MarkerOptions().position(nueve)
+                .title("Proyecto:"));
+        mMap.addMarker(new MarkerOptions().position(diez)
+                .title("Proyecto:"));
+        mMap.addMarker(new MarkerOptions().position(once)
+                .title("Proyecto:"));
+        mMap.addMarker(new MarkerOptions().position(doce)
+                .title("Proyecto:"));
 
 
         // Setting a custom info window adapter for the google map
